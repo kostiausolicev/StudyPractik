@@ -12,7 +12,7 @@ namespace game
         private const int MapWidth = 210;
         private const int MapHeigth = 52;
         // Список уровней
-        public readonly static List<AbstractionLevel> Levels = new List<AbstractionLevel>() { /*new Level0(), new Level1(), new Level2(), new Level3(),*/ new Level4(), new FinalScreen() };
+        public readonly static List<AbstractionLevel> Levels = new List<AbstractionLevel>() { new Level0(), new Level1(), new Level2(), new Level3(), new Level4(), new FinalScreen() };
         // Список уже завершенных уровней
         public static List<AbstractionLevel> FinishLevels = new List<AbstractionLevel>() { new Level0() };
         // Уровень на который надо перенаправить пользователя в случае продолжения игры, а не начала новой
